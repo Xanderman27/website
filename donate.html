@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stars of Hope Gala Donation</title>
+    <style>
+      body {
+        font-family: "Georgia", serif;
+        background-color: #f5f3f5;
+        margin: 0;
+        padding: 0;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2c3e50;
+        color: #f5f3f5;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header img {
+        max-height: 40px;
+      }
+
+      .gala-header {
+        background-image: url("banquet-hall.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f5f3f5;
+        padding: 100px 0;
+        text-align: center;
+        text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+          0 -0.07em black;
+      }
+
+      .gala-header h1 {
+        font-size: 36px;
+      }
+
+      .gala-info {
+        margin-top: 20px;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 20px;
+        background-color: rgb(156, 156, 156);
+        color: #161412;
+        padding: 40px;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      .donation-form {
+        background-color: #f5f3f5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .donation-form button {
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .buttonClass {
+        background-color: #3498db;
+        color: #f5f3f5;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-decoration: none;
+      }
+
+      .buttonClass:hover {
+        background-color: #2980b9;
+      }
+
+      .donation-form input {
+        width: 10%;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .donation-form h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #2c3e50;
+        color: #f5f3f5;
+        text-align: center;
+        padding: 10px;
+      }
+
+      main {
+        background-color: #f5f3f5;
+      }
+
+      .image-container {
+        text-align: center;
+      }
+
+      .image-container img {
+        width: 900px;
+        height: 500px;
+        border: solid 2px #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Nonprofit Logo - Replace 'path_to_your_logo' with the actual path -->
+      <a href="index.html"><img src="logo.png" alt="Stars of Hope Logo" /></a>
+      <h1 style="font-family: 'Times New Roman', serif">Stars of Hope Gala</h1>
+    </header>
+    <main>
+      <div class="gala-info">
+        <p>By donating you are helping us do X, Y, and Z!</p>
+      </div>
+      <div class="image-container">
+        <img src="banquet-hall.jpg" alt="Banquet Hall" />
+      </div>
+      <div class="donation-form">
+        <form>
+          <label for="donationAmount">Donation Amount:</label>
+          <input
+            type="number"
+            id="donationAmount"
+            name="donationAmount"
+            placeholder="$"
+            min="1"
+          />
+          <a href="thanksfordonating.html" class="buttonClass">Donate</a>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Stars Of Hope Gala</p>
+    </footer>
+  </body>
+</html>
