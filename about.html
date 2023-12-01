@@ -58,7 +58,7 @@
       }
 
       .register-form {
-        max-width: 400px;
+        max-width: 800px;
         padding: 20px;
         border-radius: 10px;
         text-align: center;
@@ -97,6 +97,12 @@
       h1 {
         font-size: 32px;
       }
+
+      .kids-image {
+        width: 100%;
+        max-width: 800px;
+        margin: 20px auto;
+      }
     </style>
   </head>
   <body>
@@ -111,38 +117,31 @@
 
     <div class="register-form-container">
       <div class="register-form">
-        <h2>Register for the Gala</h2>
-        <form action="#" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
+        <h1>About the Gala</h1>
+        <h3>
+          The Stars of Hope Gala, organized by the DreamChaser Foundation, is
+          more than just an event; it's a night dedicated to empowering
+          underprivileged children to chase their dreams. This gala symbolizes
+          hope and opportunity, aiming to provide financial support to young
+          talents from challenging backgrounds. Set in a stunning venue, the
+          evening promises an array of activities, including a silent auction
+          and performances by beneficiaries of the foundation's efforts. Guests
+          will enjoy a gourmet dinner while listening to inspiring stories from
+          children who have been directly aided by the foundation. The presence
+          of notable figures from various sectors underscores the event's
+          significance. It's an occasion for the community to unite in
+          supporting the aspirations of these young dreamers. Each contribution
+          made during this elegant evening will play a crucial role in breaking
+          down financial barriers that hinder the potential of these children.
+          As the gala concludes, guests will leave with a deep sense of
+          fulfillment, having contributed to a cause that not only changes
+          individual lives but also shapes a brighter future for the next
+          generation. The Stars of Hope Gala is a testament to the power of
+          community in making a real difference in the lives of children.
+        </h3>
 
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" required />
-
-          <label for="attendees">Number of People Attending:</label>
-          <input
-            type="number"
-            id="attendees"
-            name="attendees"
-            min="1"
-            required
-          />
-
-          <label for="dietary">Dietary Restrictions:</label>
-          <input type="text" id="dietary" name="dietary" />
-
-          <label for="specialRequests">Special Requests:</label>
-          <textarea
-            id="specialRequests"
-            name="specialRequests"
-            rows="4"
-          ></textarea>
-
-          <button type="submit">Register</button>
-        </form>
+        <!-- Spot for kids.png -->
+        <img class="kids-image" src="kids.png" alt="Kids Image" />
       </div>
     </div>
   </body>
