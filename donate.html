@@ -17,17 +17,31 @@
       }
 
       header {
+        background-color: #262626;
+        color: #f5f3f5;
+        padding: 20px;
+        text-align: left;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #2c3e50;
+      }
+
+      header a {
+        text-decoration: none;
         color: #f5f3f5;
-        padding: 20px;
-        text-align: center;
+        display: flex;
+        align-items: center;
       }
 
       header img {
         max-height: 40px;
+        margin-right: 10px;
+      }
+
+      h1 {
+        font-family: "Times New Roman", serif;
+        margin: 0;
+        color: #f5f3f5;
       }
 
       .gala-header {
@@ -46,15 +60,14 @@
       }
 
       .gala-info {
-        margin-top: 20px;
-        margin-left: 400px;
-        margin-right: 400px;
-        margin-bottom: 20px;
-        background-color: rgb(156, 156, 156);
+        margin: 20px auto;
+        max-width: 600px;
+        background-color: #f5f3f5;
         color: #161412;
-        padding: 40px;
+        padding: 20px;
         text-align: center;
         border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
       .donation-form {
@@ -127,13 +140,14 @@
   </head>
   <body>
     <header>
-      <!-- Nonprofit Logo - Replace 'path_to_your_logo' with the actual path -->
-      <a href="index.html"><img src="logo.png" alt="Stars of Hope Logo" /></a>
-      <h1 style="font-family: 'Times New Roman', serif">Stars of Hope Gala</h1>
+      <a href="index.html">
+        <img src="white-logo.png" alt="Stars of Hope Logo" />
+        <h1>Stars of Hope Gala</h1>
+      </a>
     </header>
     <main>
       <div class="gala-info">
-        <p>By donating you are helping us do X, Y, and Z!</p>
+        <p>Placeholder Text</p>
       </div>
       <div class="image-container">
         <img src="banquet-hall.jpg" alt="Banquet Hall" />
