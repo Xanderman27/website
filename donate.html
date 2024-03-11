@@ -96,6 +96,8 @@
         cursor: pointer;
         transition: background-color 0.3s;
         text-decoration: none;
+        font-size: large;
+        font-weight: bold;
       }
 
       .buttonClass:hover {
@@ -125,15 +127,21 @@
       main {
         background-color: #f5f3f5;
       }
-
+      .bbb img {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: auto;
+        width: auto;
+        height: 100px;
+      }
       .image-container {
         text-align: center;
       }
 
       .image-container img {
         margin-top: 20px;
-        width: 50%;
-        height: 50%;
+        width: 25%;
+        height: 25%;
         border: solid 2px #555;
       }
     </style>
@@ -151,16 +159,23 @@
       </div>
       <div class="donation-form">
         <form>
-          <label for="donationAmount">Donation Amount:</label>
+          <label for="donationAmount">Donation Amount: &nbsp;</label>
           <input
             type="number"
             id="donationAmount"
             name="donationAmount"
             placeholder="$"
             min="1"
-          />
+          />&nbsp; &nbsp;
           <a href="thanksfordonating.html" class="buttonClass">Donate</a>
         </form>
+        <div class="bbb">
+          <img src="BBB.jpg" alt="Banquet Hall" />
+        </div>
+        <br />
+        <br />
+        DreamChaser Foundation is a nonprofit corporation exempt from federal
+        income tax under Section 501(c)(3) of the Internal Revenue Code.
       </div>
     </main>
     <footer>
